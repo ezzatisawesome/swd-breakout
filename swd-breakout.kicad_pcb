@@ -139,7 +139,11 @@
 	(net 8 "Net-(J1-Pin_7)")
 	(net 9 "Net-(J1-Pin_10)")
 	(net 10 "Net-(J1-Pin_4)")
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+	(net 11 "unconnected-(H1-Pad1)")
+	(net 12 "unconnected-(H2-Pad1)")
+	(net 13 "unconnected-(H2-Pad1)_1")
+	(net 14 "unconnected-(H2-Pad1)_2")
+	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 		(layer "F.Cu")
 		(uuid "2481734f-bf0a-430a-a2b3-80b34a0ff608")
 		(at 219 152)
@@ -148,8 +152,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.85 0)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "8d3a713f-b83e-4f1e-a0f4-80a0cab4822a")
+			(uuid "a24a8656-63f5-4f23-ae71-2ef6603d41f2")
 			(effects
 				(font
 					(size 1 1)
@@ -160,7 +163,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.85 0)
 			(layer "F.Fab")
-			(uuid "a29e148d-3377-469f-92e7-cd10ceb8d46c")
+			(uuid "99211873-1efe-438f-81cb-c76bcf2a1c12")
 			(effects
 				(font
 					(size 1 1)
@@ -168,12 +171,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65fde678-81d7-4a28-a711-a6ba56b2b8bc")
+			(uuid "61842561-4e99-48e6-ab39-15076b4aadc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +189,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5964d879-e176-4817-8faa-3ceaa95c5bee")
+			(uuid "b0fc3908-5aee-47ef-9f31-807ed4234a3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -194,12 +197,12 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1017063a-b177-4f93-8482-7d5b20fac3a0")
+			(uuid "be600021-1cd1-4a0d-b40a-3ad86c7e6194")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +215,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b14edf5a-136a-48a7-b58e-94bdfa82b5d9")
+			(uuid "8225a620-f6f4-49ce-86af-47023725bb55")
 			(effects
 				(font
 					(size 1 1)
@@ -225,7 +228,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "706fbd8f-98c9-4f5c-ad1b-03bccd67f0b9")
+			(uuid "3b923b15-85ac-485c-a6c3-15625d745aee")
 			(effects
 				(font
 					(size 1 1)
@@ -238,7 +241,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cfb5c95b-b391-4976-8bbc-86c7c937d0bd")
+			(uuid "e4f3c657-18c4-4a23-9512-e4701769f2e8")
 			(effects
 				(font
 					(size 1 1)
@@ -251,7 +254,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2d4af61-8ca8-4405-9514-9ec36c236c34")
+			(uuid "90fdf8d8-96c9-44c5-b8c4-dfdfb4a46fc8")
 			(effects
 				(font
 					(size 1 1)
@@ -264,7 +267,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a520b789-e436-4f82-805f-d5d6f1eaf690")
+			(uuid "1455420a-b061-41a4-9e04-14edb50ce87c")
 			(effects
 				(font
 					(size 1 1)
@@ -277,7 +280,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad4d1fda-9390-485c-91b4-ab835ca082a3")
+			(uuid "b9e555bb-c449-4df7-be7d-e7b45a735a2c")
 			(effects
 				(font
 					(size 1 1)
@@ -290,7 +293,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31ab914d-f408-4e28-851c-87bfb76ffc85")
+			(uuid "7fc888f6-1a9b-45ea-97ad-f0354ab070b1")
 			(effects
 				(font
 					(size 1 1)
@@ -303,7 +306,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0951f224-ead7-4ca1-a3c5-88026ee5e254")
+			(uuid "71a50abf-419f-474f-9b64-426b231b188c")
 			(effects
 				(font
 					(size 1 1)
@@ -316,7 +319,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2662d1ff-c135-45cf-b9da-57bbac82f055")
+			(uuid "e0dd01f9-5a37-400f-bf27-64656ef1f819")
 			(effects
 				(font
 					(size 1 1)
@@ -329,7 +332,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8797edf-d691-430f-bb24-4c7596348392")
+			(uuid "6f39f1d7-4ea9-4b86-9549-a79d955dd4dd")
 			(effects
 				(font
 					(size 1 1)
@@ -337,7 +340,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/be9b303d-a91a-440c-bffc-42da76a7a99f")
 		(sheetname "Root")
 		(sheetfile "swd-breakout.kicad_sch")
@@ -351,7 +354,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "bc525be6-0157-4087-a646-79150a075f8c")
+			(uuid "2feef9ba-e52e-4b8c-8577-fc49f0bbbb87")
 		)
 		(fp_circle
 			(center 0 0)
@@ -362,27 +365,29 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "99023ca1-9ed4-4fb8-b8f2-24a36bb61edb")
+			(uuid "5a953fca-d107-4044-aa74-3138ce73c02b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "52df4aed-6672-46d4-b81d-50e132af194b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 3.6 3.6)
+			(size 5.7 5.7)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "7f470ebb-9361-45dd-a57e-7dcdc3dfbefc")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.7 5.7)
-			(layers "F.Cu" "F.Mask")
-			(uuid "ddc212ef-5ccb-47f4-b5a5-af75c2a74b0a")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.7 5.7)
-			(layers "B.Cu" "B.Mask")
-			(uuid "7f5ec260-4d88-40b5-9b97-775ec7899b33")
+			(net 11 "unconnected-(H1-Pad1)")
+			(pinfunction "1")
+			(pintype "input+no_connect")
+			(uuid "cbc63b2c-f5a9-4358-8d59-78cfc775511f")
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
@@ -2079,7 +2084,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2222,7 +2227,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/6e468a6b-f3d4-4bec-a861-646808c71bbb")
 		(sheetname "Root")
 		(sheetfile "swd-breakout.kicad_sch")
@@ -2266,18 +2271,27 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 12 "unconnected-(H2-Pad1)")
+			(pinfunction "1")
+			(pintype "input+no_connect")
 			(uuid "684096ed-0322-48a6-b89c-c572b6762865")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.7 5.7)
 			(layers "F.Cu" "F.Mask")
+			(net 13 "unconnected-(H2-Pad1)_1")
+			(pinfunction "1")
+			(pintype "input+no_connect")
 			(uuid "97c40adc-b6f1-42aa-b9eb-c2cdbf7d7afe")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.7 5.7)
 			(layers "B.Cu" "B.Mask")
+			(net 14 "unconnected-(H2-Pad1)_2")
+			(pinfunction "1")
+			(pintype "input+no_connect")
 			(uuid "9a12e8da-a0f8-42ab-9915-4ee3682398e6")
 		)
 	)
