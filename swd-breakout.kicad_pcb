@@ -2017,7 +2017,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "/Users/ezzatsuhaime/Documents/KiCadProjects/lib/3dmodels/3220-10-0300-00.step"
+		(model "${KIPRJMOD}/3dmodels/3220-10-0300-00.step"
 			(offset
 				(xyz 0 0 0)
 			)
